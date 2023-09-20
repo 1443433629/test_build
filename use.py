@@ -13,4 +13,5 @@ print(results[0])
 res = results[0].plot()
 cv2.imshow("YOLOv8 Inference", res)
 cv2.waitKey(0)
+
 #success = model.export(format="onnx")  # 将模型导出为 ONNX 格式
